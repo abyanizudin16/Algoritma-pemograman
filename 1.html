@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>penggunaan fungsi di JS / Javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+</head>
+<body>
+    <!--membuat tampilan untuk memanggil fungsi -->
+    <div class="container nt-5">
+        <div class="card">
+            <div class="card-body">
+                <h3>Belajar Function JavaScript</h3>
+                <div id="hasil" class="alert alert-info nt-3"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        //memdefinisikan fungsi
+        function fungsi () {
+            //kode yang akan dijalankan ketika fungsi dipanggil
+            document.getElementById("hasil").innerHTML += "ini adalah fungsi 1<br>";
+        }
+
+        //memanngil fungsi
+        fungsi();
+        fungsi();
+        fungsi();
+        fungsi();
+    </script>
+</body>
+</html>
